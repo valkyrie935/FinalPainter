@@ -1,0 +1,148 @@
+﻿Mason’s Painter Version 6.0 - 10/16/2023
+New Features:
+* Ability to rotate an image 90, 180, and 270 degrees clockwise and counterclockwise.
+* Ability to mirror an image horizontally and vertically
+* Ability to select a section of the canvas for rotation and mirroring
+* Improved icons for drawing tools
+* Notifications for when autosave works
+* Tooltips for buttons
+* Threaded logging of the tools used
+Known Issues:
+* Color Grabber occasionally returns canvas background color instead of desired color
+* Copy occasionally copies canvas background instead of actual canvas display
+* Rotations and mirrors occasionally break and simply stop working
+* Spacing issues when pasting a copied or rotated image
+Links:
+* https://github.com/valkyrie935/mPaint
+Mason’s Painter Version 5.0 - 10/05/2023
+New Features:
+* 3 Unit Tests to verify working code
+* Autosave functionality
+* Ability to turn timer display on and off
+* Improved Javadoc commenting
+* Alternate filetype save improvements
+* Improved UI
+* Funny Button
+Known Issues:
+* Color Grabber occasionally returns canvas background color instead of desired color
+* Copy occasionally copies canvas background instead of actual canvas display
+Expected Next Sprint:
+* Rotate an image or selection (90, 180, 270)
+* Icons for drawing tools
+* Notifications from the OS(“Corner of Windows”); For autosave
+* Threading for Logging (See example in Blackboard)
+* Tool Tips
+Links:
+* https://github.com/valkyrie935/mPaint
+Mason’s Painter Version 4.0 - 09/29/2023
+New Features:
+* Undo and Redo buttons
+* Blank Canvas Startup
+* Clear Canvas Improvement:
+   * Verifies that you want to clear before clearing
+* New Shape for drawing:
+   * Round rectangle
+* Eraser tool
+* Select and copy/Paste a piece of an image
+* Select and cut and move a piece of an image
+* User-input text box tool to display text to screen
+* Mystery button
+* Tab functionality:
+   * Users can have multiple canvases open at a time using the new tab system.
+Known Issues:
+* Color Grabber occasionally returns canvas background color instead of desired color
+* Copy occasionally copies canvas background instead of actual canvas display
+Expected Next Sprint:
+* Having at least 3 Unit Tests
+* Autosave with timer and optional user display
+* Improved JavaDoc Commenting
+* Save and Save alerts for converting to alternate filetypes
+Links:
+* /Users/masontulacz/IdeaProjects/paint5
+
+
+Mason’s Painter Version 3.0 - 09/22/2023
+New Features:
+* Shape Drawing:
+   * Ability to draw squares, circles, rectangles, ellipses, and polygons.
+   * Ability to control shape line widths, colors, and dashed lines or not.
+* Keyboard Shortcuts for menu items
+* Text Label for Color Selector
+* Color Grabber Tool
+* Improved Canvas resizing
+* Pen Updates:
+   * Ability to select dashed lines for drawing
+* Line Updates:
+   * Line drawing is now controlled with the mouse
+* Smart Save Alerts
+* Java Pun
+* General UI improvements
+Known Issues:
+* Some Images get their topmost portion cut off.
+* Clear Canvas deletes images as well
+Expected Next Sprint:
+* Undo and Redo Button Utilizing Stack
+* Alert for clear Canvas
+* New Surprise Shape
+* Eraser
+* Select/copy/paste a piece of an image
+* Select/move a piece of the image
+* Text input from the user
+* Tabs
+Links:
+* /Users/masontulacz/IdeaProjects/paint4
+
+
+
+
+Mason’s Painter Version 2.0 - 09/15/2023
+New Features:
+* Blank Canvas upon opening application
+* Ability to select, Save, and Save as images of type jpg, bmp, and png. 
+* Pen Tool:
+   * Allows user to draw on the canvas/image when selected
+   * User can select color and width of the pen tool line
+   * Drawings save to image
+* Line Tool:
+   * Button that automatically draws a line upon click
+* Resize Alert:
+   * Alerts the user when an image needs to be resized to fit their current canvas and resizes image to a nice workspace
+* Help Menu:
+   * Help button referring you to where you can get help with the application
+   * About button which displays the release notes for the project
+* Button to Clear Canvas
+Known Issues:
+* Line tool only draws in one location.
+* Clear canvas deletes images as well.
+Expected Next Sprint:
+*  Ability to draw Shapes
+   * Square, circle, rectangle, ellipse, triangle
+* Keyboard shortcuts
+* Improved color selecting text labels
+* Improved canvas resizing
+* Dashed line drawing
+* Smart Save
+* Pun on Java
+Links:
+* /Users/masontulacz/IdeaProjects/paint4
+Mason’s Painter Version 1.0 - 09/08/2023
+
+
+New Features:
+* Ability to open a window with image “IMG_3716.jpeg” contained inside.
+* A menu bar containing the control “File” with the following sub-controls:
+   * Ability to Save the image As a file.
+   * Ability to Save the image.
+* Ability to maximize, minimize and close the window.
+Known Issues:
+* When saving a file, the file type must be kept the same and this can lead to potential errors when saving.
+Expected Next Sprint:
+* Full JPG BMP and PNG support.
+* Ability to draw a line and save that edit to the image.
+   * Ability to control the width of drawn lines.
+* Ability to resize the window based on the size of the image.
+* A Color selector.
+* Addition of a Help menu item with Help and About options.
+* Ability to select a file.
+Links:
+* /Users/masontulacz/IdeaProjects/paint4
